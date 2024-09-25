@@ -24,7 +24,8 @@ frappe.listview_settings['Service Report'] = {
                         message: response.message,
                         indicator: 'green'
                     }, 5);
-                    frappe.ui.refresh('Service Report');
+                    //frappe.ui.refresh('Service Report');
+                    listview.refresh();
                 }
             })
 
