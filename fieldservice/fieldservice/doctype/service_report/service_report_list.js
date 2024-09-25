@@ -25,7 +25,7 @@ frappe.listview_settings['Service Report'] = {
                         indicator: 'green'
                     }, 5);
                     //frappe.ui.refresh('Service Report');
-                    this.refresh();
+                    cur_list.refresh();
                 }
             })
 
